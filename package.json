@@ -10,11 +10,8 @@
 		"body-parser": "^1.15.2",
 		"cors": "^2.8.1",
 		"express": "^5.0.0-alpha.7",
-		"is-url": "^1.2.4",
 		"mongodb": "^2.2.5",
-		"mongoose": "^4.13.17",
-		"short-url": "0.0.1",
-		"url-exists": "^1.0.3"
+		"mongoose": "^4.13.17"
 	},
 	"engines": {
 		"node": "4.4.5"

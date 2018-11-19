@@ -12,7 +12,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 /** this project needs a db !! **/ 
-mongoose.connect('mongodb://localhost/fcc_urlshortner', { useMongoClient: true })
+mongoose.connect('mongodb://rajatm077:jetBrains$1@ds031721.mlab.com:31721/fcc_urlshortner', { useMongoClient: true })
   .then(() => console.log('Connect to db'))
   .catch(err => console.log(err.message));
 
